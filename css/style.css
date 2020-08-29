@@ -10,7 +10,7 @@ Colors Used:
 */
 
 .debug-outline {     
-  border: 1px pink dotted;     
+  border: 1px white dotted;     
 }    
 
 html {
@@ -76,13 +76,13 @@ p {
 /* navigation */
 
 
-header ul  {
-  list-style-type: none;
-}
-
 ul  {
   list-style-type: circle;
   line-height: 1.8;
+}
+
+main li i {
+  list-style-type: none;
 }
 
 .nav-container {
@@ -93,6 +93,8 @@ ul  {
 a {
   color: black;
   text-decoration: none;
+  /* text-decoration-color: #45C1C2; */
+  /* text-decoration-style: solid; */
 }
 
 a:hover,
@@ -389,6 +391,10 @@ main {
     margin-right: 0.5em; 
   } 
 
+  .col-lg-05 {
+    width: 5%;
+  }
+
   .col-md-1 {
     width: 10%;
   }
@@ -465,6 +471,10 @@ main {
 
   body {
     font-size: 16px;
+  }
+
+  .col-lg-05 {
+    width: 5%;
   }
 
   .col-lg-1 {
