@@ -10,7 +10,7 @@ Colors Used:
 */
 
 .debug-outline {     
-  border: 1px pink dotted;     
+  border: 1px white dotted;     
 }    
 
 html {
@@ -86,8 +86,10 @@ main li i {
 }
 
 .nav-container {
+  padding-top: 10px;
   max-width: 300px;
-  margin: 0 auto;
+  padding-left: 110px;
+  /* margin: 20 auto; */
 }
 
 a {
@@ -110,12 +112,21 @@ a:focus {
 
 .a2 {
   font-size: 1.75em;
+  color: #45C1C2;
   font-family: 'Roboto';
   font-weight: 700;
 }
 
 .a3 {
-  font-size: 1.25em;
+  font-size: 1.05em;
+  font-family: 'Roboto';
+  color: #45C1C2;
+  font-weight: 700;
+}
+
+.a4 {
+  font-size: 1.5em;
+  color: black;
   font-family: 'Roboto';
   font-weight: 700;
 }
